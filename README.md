@@ -10,6 +10,14 @@ The repository contains two Applications:
 - Client: Client Mobile Application written in Lua
 - Server: Server Backend Application written in Javascript (NodeJS framework) with local mysqlite3 database.
 
+<table>
+  <tr>
+    <td valign="center" width=30%><img src="img1.png"></td>
+    <td valign="center" width=30%><img src="img2.png"></td>
+    <td valign="center" width=30%><img src="img3.png"></td>
+  </tr>
+ </table>
+ 
 ## Project articulation and objectives
 
 The goal of this project is to build a 2D networked game with multiplayer capability, enabling users to both play in single player mode and in multiplayer mode with up to three other players, bringing the total maximum users playing together to four.  The users can either select their opponents either by entering the same lobby using a team name or by entering the global matchmaking room, having the Server initiate matches between selected players based on the average round-trip time between the Server and the Clients. In addition, an equally important project specification consists in the optimisation of the overall game’s reliability by asserting that each packet is received by both the Client and the Server in order to provide the users with a synchronised view of the match.  
