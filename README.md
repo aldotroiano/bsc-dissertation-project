@@ -6,6 +6,13 @@ Project submitted the 25th of May 2020 at the University of Reading
 
 **Final Grade: First Class Honours**
 
+Cross-Platform Mobile Multiplayer Networked game optimised for unreliable connections
+- Low-level TCP, UDP Socket Management
+- Packet Compression
+- Linear Interpolation
+- Player Matchmaking 
+- Team-based Room creation 
+
 The repository contains two Applications:
 - Client: Client Mobile Application written in Lua
 - Server: Server Backend Application written in Javascript (NodeJS framework) with local mysqlite3 database.
